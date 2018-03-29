@@ -1,0 +1,58 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "rules": {
+        "indent": [
+            "error", 4,
+            {
+                "SwitchCase" : 1,
+                "ignoredNodes": [
+                    "JSXAttribute",
+                    "JSXSpreadAttribute"
+                ],
+                "MemberExpression": "off"
+            }
+        ],
+        "no-debugger": "warn",
+        "comma-dangle": "off",
+        "max-len": ["error", 500, 4, {
+            "ignoreUrls": true,
+            "ignoreComments": false,
+            "ignoreRegExpLiterals": true,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true
+        }],
+        "global-require": "off",
+        "no-restricted-syntax": "off",
+        "arrow-parens": "warn",
+        "class-methods-use-this": "warn",
+        "react/jsx-indent": [2, 4],
+        "react/sort-comp": ["warn", {
+            "order": [
+                "type-annotations",
+                "static-methods",
+                "lifecycle",
+                "/^on.+$/",
+                "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+                "everything-else",
+                "/^render.+$/",
+                "render"
+            ]
+        }],
+        "jsx-a11y/anchor-is-valid": [ "error", {
+            "aspects": [ "noHref" ]
+        }],
+        "no-multi-spaces": ["error", {
+            "ignoreEOLComments": true 
+        }]
+    }
+}

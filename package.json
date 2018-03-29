@@ -1,0 +1,29 @@
+{
+    "name": "create-react-redux-pack",
+    "version": "1.0.0",
+    "description": "react + redux + webpack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/namgyu/create-react-redux-pack.git"
+    },
+    "keywords": [
+      "react",
+      "redux",
+      "webpack",
+      "webpack-dev-server"
+    ],
+    "author": "Namgyu Kuk",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/namgyu/create-react-redux-pack/issues"
+    },
+    "homepage": "https://github.com/namgyu/create-react-redux-pack#readme",
+    "bin": {
+      "create-react-redux-pack": "./index.js"
+    },
+    "dependencies": {
+      "inquirer": "^5.2.0",
+      "fs-extra": "^5.0.0"
+    }
+  }
+  
