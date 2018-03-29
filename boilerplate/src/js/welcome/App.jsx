@@ -44,7 +44,7 @@ class App extends Component {
         return (
             <Fragment>
                 <span>{this.props.text} {this.state.world}</span><br />
-                <button onClick={this.handleClick}>클릭!</button><br />
+                <button onClick={this.handleClick}>Click!</button><br />
                 <Top {...this.state} /><br />
                 <Mid {...this.state} /><br />
                 <Bottom {...this.state} />
