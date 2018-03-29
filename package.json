@@ -1,6 +1,6 @@
 {
     "name": "create-react-redux-pack",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "react + redux + webpack",
     "repository": {
       "type": "git",
