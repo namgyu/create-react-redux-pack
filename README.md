@@ -32,9 +32,9 @@ $ npm start
 module.exports = {
     /** 
      *  "domain": [
-     *      "uri1",
-     *      "uri2",
-     *      "uri3",
+     *      "path1",
+     *      "path2",
+     *      "path3",
      *      ...
      *  ]
      */
@@ -45,7 +45,7 @@ module.exports = {
 //example.jsx
 ...
 componentDidMount() {
-    axios.get('/uri1')   // proxy
+    axios.get('/path1')   // proxy
     .then(res => {
         // Do something...
     });

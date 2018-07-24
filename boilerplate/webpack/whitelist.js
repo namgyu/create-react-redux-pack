@@ -1,9 +1,9 @@
 module.exports = {
     /** 
      *  "domain": [
-     *      "uri1",
-     *      "uri2",
-     *      "uri3",
+     *      "path1",
+     *      "path2",
+     *      "path3",
      *      ...
      *  ]
      */
